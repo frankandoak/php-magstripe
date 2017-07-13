@@ -1,5 +1,7 @@
 # php-magstripe
 
+[![Build Status](https://travis-ci.org/frankandoak/php-magstripe.svg?branch=master)](https://travis-ci.org/frankandoak/php-magstripe)
+
 A library to read and parse data coming from magnetic card readers, following the ISO7811. Inspired
 by [python-magstripe](https://github.com/davidjamesmoss/python-magstripe).
 
