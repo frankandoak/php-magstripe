@@ -36,5 +36,5 @@ Tests are run with php unit, validating some benchmark credit card numbers and i
 
 ## License
 
-MIT
+[MIT](https://opensource.org/licenses/MIT)
 

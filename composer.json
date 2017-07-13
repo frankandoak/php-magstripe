@@ -11,5 +11,6 @@
     "psr-4": {
       "FrankAndOak\\MagStripe\\": "src/"
     }
-  }
+  },
+  "license": "MIT"
 }
