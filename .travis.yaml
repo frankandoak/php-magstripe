@@ -1,0 +1,4 @@
+language: php
+install: "make build"
+script:
+  - make test
