@@ -1,0 +1,15 @@
+{
+  "name" : "frankandoak/php-magstripe",
+  "description" : "Parse magnetic card reader strings under ISO7811",
+  "require" : {
+    "inacho/php-credit-card-validator": "1.*"
+  },
+  "require-dev" : {
+    "phpunit/phpunit" : "^5.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "FrankAndOak\\MagStripe\\": "src/"
+    }
+  }
+}
