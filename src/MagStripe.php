@@ -78,7 +78,8 @@ class MagStripe
         $data = $track1[2];
         $this->expYear = substr($data, 0, 2);
         $this->expMonth = substr($data, 2, 2);
-        $this->name = sprintf('%s %s', trim($name[1]), trim($name[0]));
+
+        $this->name = count($name) > 1 ? sprintf('%s %s', trim($name[1]), trim($name[0])) : trim($name[0]);
 
         $track2 = explode('=', $this->tracks[1]);
         if (count($track2) != 2) {
